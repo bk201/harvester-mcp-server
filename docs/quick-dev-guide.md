@@ -44,13 +44,13 @@ insecureSkipTls: true
 aiAgent:
   image:
     repository: rancher/rancher-ai-agent
-    tag: v1.1.0-alpha.8
+    tag: v1.1.0
     pullPolicy: IfNotPresent
 mcp:
   readOnly: false
   image:
     repository: rancher/rancher-ai-mcp
-    tag: v1.1.0-alpha.7
+    tag: v1.1.0
     pullPolicy: IfNotPresent
 
 log:
